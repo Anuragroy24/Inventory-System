@@ -1,0 +1,47 @@
+#orders {
+  display: grid;
+  gap: 16px;
+}
+
+.order-card {
+  background: #ffffff;
+  border: 1px solid #eef2f7;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  padding: 14px 14px 6px 14px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.order-table thead th {
+  color: #2a5dff;
+  font-weight: 700;
+  border-bottom: 2px solid #e3e8ee;
+}
+.order-table tbody tr {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.order-table tbody tr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+}
+.order-table td, .order-table th {
+  padding: 10px 10px;
+}
+
+.status-chip {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.status-pending { background: #fff1d6; color: #b27700; }
+.status-fulfilled { background: #dcfbe7; color: #127a4f; }
+.status-cancelled { background: #fde2df; color: #a7332a; }

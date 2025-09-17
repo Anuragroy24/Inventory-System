@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.site-footer {
+  margin-top: 40px;
+  padding: 16px 20px;
+  border-top: 1px solid #eef2f7;
+  color: #667085;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a {
+  color: #2a5dff;
+  text-decoration: none;
+  margin-left: 14px;
+}
+.links a:hover {
+  text-decoration: underline;
+}

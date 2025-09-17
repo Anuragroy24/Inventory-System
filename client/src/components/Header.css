@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #eef2f7;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #2a5dff;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(42,93,255,0.25);
+}
+.title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.subtitle {
+  font-size: 0.8rem;
+  color: #667085;
+}
+.nav a {
+  color: #2a5dff;
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight: 600;
+  position: relative;
+}
+.nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #2a5dff;
+  transition: width .2s ease;
+}
+.nav a:hover::after {
+  width: 100%;
+}
+.nav a.active {
+  color: #1746b6;
+}
+.nav a.active::after {
+  width: 100%;
+}
