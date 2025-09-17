@@ -3,7 +3,7 @@
 Image:
 <img width="1068" height="595" alt="Image" src="https://github.com/user-attachments/assets/a7163c48-bf6c-49f2-9cfc-63277eefcd86" />
 
-recording of the Project:
+Recording of the Project:
 https://www.loom.com/share/ae5255fe2457430f8505a2db209623b5?sid=e19c18dc-575d-4d59-9fc8-9ab118a13f04
 
 ## Overview
