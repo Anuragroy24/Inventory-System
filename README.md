@@ -1,7 +1,7 @@
 # MERN Inventory Management System
 
 Image:
-https://github.com/user-attachments/assets/a7163c48-bf6c-49f2-9cfc-63277eefcd86
+<img width="1068" height="595" alt="Image" src="https://github.com/user-attachments/assets/a7163c48-bf6c-49f2-9cfc-63277eefcd86" />
 
 ## Overview
 A full-stack inventory management system for an online store with real-time stock tracking, built using the MERN stack (MongoDB, Express, React, Node.js).
