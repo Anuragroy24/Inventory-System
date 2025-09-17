@@ -1,5 +1,6 @@
 # MERN Inventory Management System
 
+Image:
 https://github.com/user-attachments/assets/a7163c48-bf6c-49f2-9cfc-63277eefcd86
 
 ## Overview
